@@ -1,0 +1,9 @@
+{
+    "url": "https://uni-obr.uat.adersad.ru",
+
+    "paths": {
+        "fldata": "/v1/fldata",
+        "appState": "/v1/admin/app-state",
+        "request": "/v1/request"
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "playwright-testrunner-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --workers 1",
+
+    "test-premium-smoke": "npx playwright test --grep @Smoke-Premium --workers 1",
+    "test-premium": "npx playwright test --grep projects/platform/premium/tests --workers 1",
+
+    "test-dsign-smoke": "npx playwright test --grep @Smoke-Dsign --workers 1",
+    "test-dsign": "npx playwright test --grep projects/sodibr/dsign/tests --workers 1",
+    "test-dsign-us": "npx playwright test --grep @Layout-Dsign --update-snapshots --workers 1",
+
+    "test-mpd-smoke": "npx playwright test --grep @Smoke-MPD --workers 1",
+    "test-mpd": "npx playwright test --grep projects/sodibr/mpd/tests --workers 1",
+
+    "test-obr-api": "npx playwright test --grep projects/sodibr/obr/api-tests --workers 1",
+
+    "test-examples": "npx playwright test --grep @Example --workers 1",
+
+    "test-obr-admin": "npx playwright test --grep projects/sodibr/obr-admin --workers 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.20",
+    "@types/nodemailer": "^6.4.4",
+    "adm-zip": "^0.5.9",
+    "clipboardy": "^2.3.0",
+    "experimental-allure-playwright": "0.0.3",
+    "nodemailer": "^6.6.3",
+    "dotenv": "^16.0.0",
+    "playwright": "1.20",
+    "tesseract.js": "^2.1.5",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.2",
+    "winston": "^3.3.3"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.17.2"
+  },
+  "timeout": 60000
+}

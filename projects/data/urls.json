@@ -1,0 +1,11 @@
+{
+    "platform": {
+        "premium": "https://uat.adersad.ru"
+    },
+    "sodibr": {
+        "admin": "https://obr-admin.uat.adersad.ru",
+        "obr": "https://obr.uat.adersad.ru",
+        "dsign": "https://dsign.uat.adersad.ru",
+        "mpd": "https://mpd.uat.adersad.ru"
+    }
+}

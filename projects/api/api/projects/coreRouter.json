@@ -1,0 +1,16 @@
+{
+    "url": "https://retuor-orec.uat.adersad.ru",
+
+    "paths": {
+        "registration": "/v2/register/obr",
+        "registrationNRB": "/v2/register/NRB",
+        "resetPassword": "/v2/user/restore/email"
+    },
+
+    "registrationNRB": {
+        "app": "obr",
+        "apps": ["obr"],
+        "custom": "{\"start_url\":\"https://dsign.uat.adersad.ru/\",\"entry_url\":\"https://dsign.uat.adersad.ru/\"}",
+        "target": "sodibr"
+    }
+}

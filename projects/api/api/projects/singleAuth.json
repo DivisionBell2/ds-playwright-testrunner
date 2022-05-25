@@ -1,0 +1,7 @@
+{
+    "url": "https://htua-elgnis.uat.adersad.ru",
+
+    "paths": {
+        "login": "/v1/login"
+    }
+}
